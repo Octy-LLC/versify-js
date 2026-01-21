@@ -18,7 +18,7 @@ import { GetByUrlStrategy, Versify } from '@octy/versify-react-native';
 const strategy = new GetByUrlStrategy('<your-url-to-manifest>');
 const versify = new Versify(strategy);
 
-versify.check();
+versify.check('1.0.0');
 ```
 
 ### Get Version Manifest Directly
