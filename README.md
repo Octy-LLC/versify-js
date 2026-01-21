@@ -38,8 +38,8 @@ The remote JSON must have the following structure:
 
 ```json
 {
-  "min": 1,
-  "lts": 2
+  "min": "1.0.0",
+  "lts": "1.0.1"
 }
 ```
 
