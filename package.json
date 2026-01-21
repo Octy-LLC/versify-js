@@ -1,0 +1,30 @@
+{
+  "name": "@octy/versify-js",
+  "version": "1.0.0",
+  "description": "Supports Node.js 18+ and React Native 0.4.+.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -outDir dist"
+  },
+  "keywords": [
+    "versify",
+    "mobile",
+    "react-native",
+    "versioning",
+    "sdk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+    },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0",
+    "react-native": ">=0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3"
+  }
+}
