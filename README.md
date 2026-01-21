@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install @octy/versify-react-native
+npm install @octy/versify-js
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @octy/versify-react-native
 ### Check Version
 
 ```typescript
-import { GetByUrlStrategy, Versify } from '@octy/versify-react-native';
+import { GetByUrlStrategy, Versify } from '@octy/versify-js';
 
 const strategy = new GetByUrlStrategy('<your-url-to-manifest>');
 const versify = new Versify(strategy);
@@ -24,7 +24,7 @@ versify.check('1.0.0');
 ### Get Version Manifest Directly
 
 ```typescript
-import { GetByUrlStrategy, Versify } from '@octy/versify-react-native';
+import { GetByUrlStrategy, Versify } from '@octy/versify-js';
 
 const strategy = new GetByUrlStrategy('<your-url-to-manifest>');
 const versify = new Versify(strategy);
